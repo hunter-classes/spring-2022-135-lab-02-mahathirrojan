@@ -6,4 +6,5 @@ void print_interval(int L, int U){
     for(i = L; i < U; i++){
         std::cout << " " << i << " ";
     }
+    std::cout << "\n" << std::endl; 
 }
